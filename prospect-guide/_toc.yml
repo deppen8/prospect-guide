@@ -1,7 +1,21 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
+
+- part: Get started
+  chapters:
+  - file: start/install
+
+- part: Building blocks
+  chapters:
+  - file: blocks/overview
+  - file: blocks/parameters
+  - file: blocks/objects
+  - file: blocks/Area
+  - file: blocks/Assemblage
+  - file: blocks/Coverage
+  - file: blocks/Team
+
+- part: Running a Survey
+  chapters:
+  - file: survey/Survey
