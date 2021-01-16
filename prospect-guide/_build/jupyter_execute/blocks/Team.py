@@ -6,7 +6,7 @@ Each `Team` object is made up of `Surveyor` objects. A `Surveyor` object is mean
 
 Below we will create six surveyors to make up our `Team`, varying the parameters for each. It is best to simply create each person by hand.
 
-```{note}
+```{tip}
 In some cases, it may be more appropriate to use a single archetypal surveyor than to create multiple versions of the same kind of surveyor. For example, in the case where the `Surveyor` parameters are highly uncertain or highly variable, it might be most sensible to begin by creating a single `Surveyor` with wide distributions for the parameters rather than trying to create many surveyors whose parameters differ only slightly.
 ```
 
